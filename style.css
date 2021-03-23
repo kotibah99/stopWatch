@@ -1,0 +1,99 @@
+#stopwatch {
+    background-color: #5c5757;
+    color: #fefefe;
+    border-radius: 20px;
+    margin: auto;
+    width: 355px;
+    padding: 12px;
+}
+
+.btn {
+    padding: 10px;
+    border: 0px;
+    border-radius: 50%;
+    font-size: 15pt;
+    background-color: #302d2d;
+    width: 43px;
+    margin: 10px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #383434;
+    cursor: pointer;
+}
+
+#timer {
+    padding: 10px;
+    font-size: 25pt;
+    color: #3b3b3b;
+    margin: auto;
+    width: fit-content;
+    color: white;
+}
+#timer1 {
+    /* padding: 14px; */
+    font-size: 25pt;
+    color: #3b3b3b;
+    margin: auto;
+    width: fit-content;
+    color: white;
+    margin-right: 27%;
+    margin-top: -15%;
+}
+#timer2 {
+    padding: 14px;
+    font-size: 25pt;
+    color: #3b3b3b;
+    margin: auto;
+    width: fit-content;
+    color: white;
+    margin-left: 25%;
+    margin-top: -54px;
+}
+
+.time {
+    padding: 25px;
+}
+
+
+#laps {
+    border: 0px;
+   
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12pt;
+    margin: 25px
+}
+
+.lapBtn {
+    border: 0px;
+    border-radius: 37px;
+    height: 35px;
+    cursor: pointer;
+    padding: 1px;
+    /* margin: 2px; */
+    margin-left: 10px;
+    /* margin-top: 3px; */
+    position: absolute;
+    /* left: 57%; */
+    top: 17%;
+}
+#options {
+    
+    position: absolute;
+    left: 42%;
+}
+.fa-play:before {
+   
+    color: white;
+}
+.fa-pause:before {
+    color: white;
+  
+
+}
+.fa-backward:before {
+    color: white;
+}
